@@ -10,7 +10,7 @@ body
     overflow: hidden;
     background-color: #133;
     position: sticky;
-    /* top: 0; */
+    top: 0;
 
 }
 li
