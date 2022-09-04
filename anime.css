@@ -8,7 +8,7 @@ body
     margin: 0;
     padding:0;
     overflow: hidden;
-    background-color: #133;
+    background-color: rgb(23, 31, 31);
     position: sticky;
     top: 0;
 
@@ -34,9 +34,17 @@ li a:hover
 #head1
 {
     text-align: center;
-    color: rgb(76, 179, 243);
+    color: rgb(228, 134, 62);
+    background: rgb(42, 42, 42);
+    padding: 25px;
+    margin: 0;
 }
-.trailtab1
+.trailtab1 
 {
-    width: 100%;
+    width: 75%;
+}
+tr,td
+{
+    height: 100px;
+    width: 500px;
 }
