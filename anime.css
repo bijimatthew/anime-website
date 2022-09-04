@@ -11,6 +11,8 @@ body
     background-color: rgb(23, 31, 31);
     position: sticky;
     top: 0;
+    border: 1px hidden;
+    border-radius: 5px;
 
 }
 li
@@ -38,6 +40,8 @@ li a:hover
     background: rgb(42, 42, 42);
     padding: 25px;
     margin: 0;
+    border: 1px hidden;
+    border-radius: 5px;
 }
 .trailtab1 
 {
