@@ -2,21 +2,37 @@ body
 {
     background-color:#373636;
 }
-#navmat
+.navmat
 {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #133;
+    position: sticky;
+    /* top: 0; */
+
 }
 li
 {
     float: left;
-
 }
+
 li a
 {
- text-decoration: none;
- display: block;
- margin-left:  100px;
- color: wheat;   
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: rgb(110, 208, 110);
+    color: white;
+}
+#head1
+{
+    text-align: center;
+    color: rgb(76, 179, 243);
 }
